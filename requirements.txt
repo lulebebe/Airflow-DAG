@@ -1,0 +1,12 @@
+# IMPORTANTE: Este laboratorio requiere Python 3.11.
+# Python 3.12 no es compatible con Airflow 2.x (pendulum 2.x requiere distutils,
+# módulo eliminado en Python 3.12).
+#
+# Crea el entorno virtual con Python 3.11:
+#   python3.11 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+
+apache-airflow==2.9.3
+pendulum>=2.0,<3.0
+pytest==7.4.0
