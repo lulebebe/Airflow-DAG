@@ -23,4 +23,4 @@ with DAG(
         python_callable=do_something
     )
 
-    task_a >> task_b >> task_a
+    task_a >> task_b
